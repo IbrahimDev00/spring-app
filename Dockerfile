@@ -7,7 +7,7 @@ COPY src ./src
 
 RUN mvn clean package -DskipTests
 
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jre-alpine
 
 WORKDIR /app
 
